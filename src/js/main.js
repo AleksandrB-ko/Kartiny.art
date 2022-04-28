@@ -3,6 +3,7 @@ import sliders from "./modules/sliders";
 import forms from "./modules/forms";
 import mask from "./modules/mask";
 import russianLangInputs from "./modules/russianLangInputs";
+import showHiddenStyles from "./modules/showHiddenStyles";
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict';
@@ -13,4 +14,5 @@ window.addEventListener('DOMContentLoaded', () => {
     mask('[name="phone"]');
     russianLangInputs('[name="name"]');
     russianLangInputs('[name="message"]');
+    showHiddenStyles('.button-styles', '.styles-2');
 });
