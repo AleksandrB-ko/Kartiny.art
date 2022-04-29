@@ -1254,13 +1254,9 @@ h4 {
     padding: 3rem 6rem 4rem 6rem;
 }
 
-.status{
-    position: absolute;
-    top: 150px;
-    left: 150px;
-
+.status {
+    text-align: center;
 }
-
 
 @media (max-width: 1399px) {
     .paints {
@@ -1728,5 +1724,4 @@ h4 {
         padding: 3rem 3rem;
         width: 25rem;
     }
-
 }
