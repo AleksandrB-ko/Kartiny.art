@@ -1,4 +1,4 @@
-import { postData } from "../services/requests";
+import { getData } from "../services/requests";
 
 
 const calc = (size, material, options, promocode, result) => {
@@ -43,8 +43,7 @@ export default calc;
 
 //     let sum = 0, sizeValue = "", materialValie = "0", optionsValue = "0";
 //     let state;
-
-//     getResource('assets/calcPrice.json')
+//     getData('assets/calcPrice.json')
 //         .then(res => {
 //             state = res;
 //         })
@@ -70,8 +69,9 @@ export default calc;
 //                                 break;
 //                         }
 //                     }
-//                     // console.log(state[select][key]);
+//                     console.log(state[select][key]);
 //                 }
+
 //                 sum = Math.round((+sizeValue) * (+materialValie) + (+optionsValue));
 //                 if (sizeBlock.value == '' || materialBlock.value == '') {
 //                     resultBlock.value = "Пожалуйста, выберите размер и материал картины";
@@ -80,16 +80,16 @@ export default calc;
 //                 } else {
 //                     resultBlock.value = sum;
 //                 }
-//                 // console.log(resultBlock.value);
+//                 console.log(resultBlock.value);
 //             }
+
 //             calcFunc(state);
 //         });
 //     }
-
 
 //     changePrice('change', sizeBlock);
 //     changePrice('change', materialBlock);
 //     changePrice('change', optionsBlock);
 //     changePrice('input', promocodeBlock);
-
 // };
+// export default calc;
